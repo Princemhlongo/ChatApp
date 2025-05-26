@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.chatappprogpoe.LoginTest$MessagesClassTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.124 s <<< FAILURE! -- in com.mycompany.chatappprogpoe.LoginTest$MessagesClassTests
+com.mycompany.chatappprogpoe.LoginTest$MessagesClassTests.testMessageIdValidation -- Time elapsed: 0.010 s <<< ERROR!
+java.lang.NoSuchMethodError: 'java.util.function.BooleanSupplier com.mycompany.chatappprogpoe.Messages.checkMessagesID()'
+	at com.mycompany.chatappprogpoe.LoginTest$MessagesClassTests.testMessageIdValidation(LoginTest.java:270)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.chatappprogpoe.LoginTest$MessagesClassTests.testTotalMessageCount -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Message count should increment by 2 ==> expected: <3> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at com.mycompany.chatappprogpoe.LoginTest$MessagesClassTests.testTotalMessageCount(LoginTest.java:335)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

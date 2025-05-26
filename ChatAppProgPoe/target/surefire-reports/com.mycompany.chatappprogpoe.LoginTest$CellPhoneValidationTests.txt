@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.chatappprogpoe.LoginTest$CellPhoneValidationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! -- in com.mycompany.chatappprogpoe.LoginTest$CellPhoneValidationTests
+com.mycompany.chatappprogpoe.LoginTest$CellPhoneValidationTests.testValidCellNumbers -- Time elapsed: 0.010 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.chatappprogpoe.Login.checkCellPhoneNumber(String)" because "this.this$0.login" is null
+	at com.mycompany.chatappprogpoe.LoginTest$CellPhoneValidationTests.testValidCellNumbers(LoginTest.java:160)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.chatappprogpoe.LoginTest$CellPhoneValidationTests.testInvalidCellNumbers -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.chatappprogpoe.Login.checkCellPhoneNumber(String)" because "this.this$0.login" is null
+	at com.mycompany.chatappprogpoe.LoginTest$CellPhoneValidationTests.testInvalidCellNumbers(LoginTest.java:171)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

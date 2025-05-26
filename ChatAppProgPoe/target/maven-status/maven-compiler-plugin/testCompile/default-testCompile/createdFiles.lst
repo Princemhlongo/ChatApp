@@ -1,0 +1,8 @@
+com\mycompany\chatappprogpoe\LoginTest$CellPhoneValidationTests.class
+com\mycompany\chatappprogpoe\LoginTest$PasswordComplexityTests.class
+com\mycompany\chatappprogpoe\LoginTest$LoginStatusTests.class
+com\mycompany\chatappprogpoe\LoginTest$UserLoginTests.class
+com\mycompany\chatappprogpoe\LoginTest$UsernameValidationTests.class
+com\mycompany\chatappprogpoe\LoginTest$MessagesClassTests.class
+com\mycompany\chatappprogpoe\LoginTest$UserRegistrationTests.class
+com\mycompany\chatappprogpoe\LoginTest.class

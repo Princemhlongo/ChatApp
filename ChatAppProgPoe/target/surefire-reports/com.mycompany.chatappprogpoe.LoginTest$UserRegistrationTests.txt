@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.chatappprogpoe.LoginTest$UserRegistrationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in com.mycompany.chatappprogpoe.LoginTest$UserRegistrationTests
+com.mycompany.chatappprogpoe.LoginTest$UserRegistrationTests.testValidRegistration -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.chatappprogpoe.Login.regUser(String, String, String)" because "this.this$0.login" is null
+	at com.mycompany.chatappprogpoe.LoginTest$UserRegistrationTests.testValidRegistration(LoginTest.java:187)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.chatappprogpoe.LoginTest$UserRegistrationTests.testInvalidUsernameRegistration -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.chatappprogpoe.Login.regUser(String, String, String)" because "this.this$0.login" is null
+	at com.mycompany.chatappprogpoe.LoginTest$UserRegistrationTests.testInvalidUsernameRegistration(LoginTest.java:199)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
